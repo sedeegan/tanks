@@ -1,10 +1,10 @@
 var express = require('express');
 var app = express();
 var counter = 0;
-var BALL_SPEED = 10;
+var BALL_SPEED = 80;
 var WIDTH = 1100;
 var HEIGHT = 580;
-var TANK_INIT_HP = 100;
+var TANK_INIT_HP = 150;
 
 //Static resources server
 app.use(express.static(__dirname + '/www'));
